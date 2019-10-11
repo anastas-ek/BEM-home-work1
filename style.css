@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+header{
+    background: url(./img/header.png);
+    display: flex;
+    max-width: 1500px;
+    height: 900px;
+    flex-flow: column wrap;
+    position: relative;  
+    box-sizing: border-box;
+}
+
+.about , header{
+    padding: 30px 10% 50px;
+    box-sizing: border-box;
+}
+
+.header__main{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;  
+    align-items: center;      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+.header__logo{
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+}
+
+.header__ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+.header__li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ff5f3300;
+}
+.header__li:hover{
+    border-top: 2px solid #ff6033;
+}
+
+.header__info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+    
+    max-width: 40%;
+
+}
+
+.info__title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.info__info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 35px 0;
+}
+
+.info__button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    background-color: #ff6033;
+    padding: 18px 48px 18px 24px;
+    text-decoration: none;
+    
+}
+.header__link{
+    text-decoration: none;
+}
+.header__link--mouse{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    font-size: 30px;
+    color: gray;
+}
+
+.about {
+    display: flex;
+    background-color: #00bcbc;
+    flex-flow: row nowrap;
+    padding-left: 5%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about__info{
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 70px;
+
+}
+
+.about__title{
+    font-size: 90px;
+    margin-bottom: 30px;
+
+}
+.about__img{
+    flex-shrink: 0.5;
+}
+
+.info-about{
+    font-size: 17px;
+    line-height: 28px;
+}
